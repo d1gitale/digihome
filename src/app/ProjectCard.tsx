@@ -23,12 +23,14 @@ export function ProjectCard({ project }: CardProps) {
     });
 
     return (
-        <div>
+        <div className="bg-black text-white p-5">
             <Image src={project.thumbnail} alt={project.name} width={project.thumbnail_w} height={project.thumbnail_h}></Image>
             <div>
-                <p>{project.name}</p>
+                <h1>{project.name}</h1>
                 <p>{project.description}</p>
-                {techs}
+                <div className="flex flex-row flex-wrap gap-2 md:gap-3">
+                    {techs}
+                </div>
             </div>
         </div>
     );
