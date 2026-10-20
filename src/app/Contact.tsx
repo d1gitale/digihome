@@ -1,5 +1,5 @@
-import SocialButton from "./SocialButton.tsx"
-import { socials } from "./socials.ts"
+import SocialButton from "./SocialButton"
+import { socials } from "./socials"
 
 export default function Contact() {
     const buttons = socials.map(social => {
