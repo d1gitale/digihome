@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar";
 import { Greeting } from "./Greeting";
 import { Projects } from "./Projects";
+import Contact from "./Contact.tsx"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar></Navbar>
       <Greeting></Greeting>
       <Projects></Projects>
+      <Contact></Contact>
     </>
   );
 }
