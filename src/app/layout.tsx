@@ -14,12 +14,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <head>
-            <meta property="og:title" content="digihome" />
-            <meta property="og:description" content="My dev portfolio" />
-            <meta property="og:image" content="/og.png" />
-            <meta property="og:url" content="https://digihome.vercel.app" />
-        </head>
         <body className={`antialiased ${pixelify.className}`}>
             {children}
         </body>
